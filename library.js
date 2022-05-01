@@ -40,7 +40,8 @@ function recoverCachedContent(){
 function set_title(new_title){
 NavTitle.innerHTML = new_title + " (Made with SimLib)";
 }
-//Streams any kind of video supported by the browser with optional paramaters
+//Streams any kind of video supported by the browser with paramaters
+//The paramaters field is required but can be left empty
 function stream(source, parameters){
     env.innerHTML = old_content + "<video src='" + source + "' " + parameters + "></video>"
     update();
