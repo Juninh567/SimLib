@@ -1,0 +1,7 @@
+==v1.0.1 (Minor)==
+- Added embed feature, wich allows you to insert another page in your page (iframe).
+- Added this changelog wich will be updated every SimLib update.
+==v1.0 Patch 1 (Patch)==
+- Fixed grammar errors in the coded documentation.
+==v1.0 (Major)==
+- First release of SimLib.
