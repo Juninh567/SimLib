@@ -51,3 +51,8 @@ function line(){
     env.innerHTML = old_content + "<hr>";
     update();
 }
+//Embeds another page inside the page
+function embed(source, width, height){
+    env.innerHTML = old_content + "<iframe src='" + source + "' width='" + width + "'" + "height='" + height + "'></iframe>";
+    update();
+}
