@@ -5,4 +5,7 @@
 [![license](https://badgen.net/github/license/Juninh567/SimLib)](https://github.com/Juninh567/SimLib/blob/master/LICENSE)
 
 A JavaScript library for creating web pages faster.
-# Check library.js to know what each command is for
+
+Download the library [here.](https://juninh567.github.io/simlib.html)
+
+You can have a look at the documentation [here.](https://github.com/Juninh567/SimLib/blob/master/doc/home.md)
