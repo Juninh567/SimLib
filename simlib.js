@@ -1,4 +1,3 @@
-//Creates all variables needed
 var env = document.getElementById("enviroment");
 var old_content = "";
 var cached_content;
@@ -38,7 +37,7 @@ function recoverCachedContent(){
 }
 
 function set_title(new_title){
-NavTitle.innerHTML = new_title + " (Made with SimLib)";
+    NavTitle.innerHTML = new_title;
 }
 
 function stream(source, parameters){
@@ -54,4 +53,19 @@ function line(){
 function embed(source, width, height){
     env.innerHTML = old_content + "<iframe src='" + source + "' width='" + width + "'px" + "height='" + height + "px'></iframe>";
     update();
+}
+
+function cacheReset(){
+    cached_content = "";
+    update();
+}
+
+function redirect(url){
+    window.location.href=url;
+}
+
+function getUsers(value){
+    if (value == "browser"){
+        navigator.userAgent;
+    }
 }
