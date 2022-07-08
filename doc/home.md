@@ -25,7 +25,7 @@ The paramaters field is required but can handle spaces
 
 line() ord l() - Creates a straight line
 
-embed(source, width, height) or  - Embeds another page inside the page
+embed(source, width, height) or emb(source, width, height) - Embeds another page inside the page
 
 ## Development commands
 
