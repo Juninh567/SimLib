@@ -1,32 +1,32 @@
 # SimLib documentation
 
-<span style="color:red">Remember to place a semilicon (;) at the end of every line when using JavaScript!</span>
+Remember to place a semilicon (;) at the end of every line when coding in JavaScript!
 
 ## Commands you will most likely use
 
-write(text) - Writes text on the screen
+write(text) or wrt(text) - Writes text on the screen
 
-clear() - Clears the screen
+clear() or clr() - Clears the screen
 
-draw(source) - Draws any kind of image supported by the browser
+draw(source) or drw(source) - Draws any kind of image supported by the browser
 
-make_header(content) - Writes a big and bold text on the screen
+make_header(content) or mk_hdr(content) - Writes a big and bold text on the screen
 
-cache_content() - Caches the page's contents to be restored later
+cache_content() or che_cont() - Caches the page's contents to be restored later
 
-recoverCachedContent() - Restores the cached content saved after using the cache_content function (currently rendered items are kept)
+recoverCachedContent() or rcveChedCont() - Restores the cached content saved after using the cache_content function (currently rendered items are kept)
 
-set_title(new_title) - Changes the page's title
+set_title(new_title) or set_ttl() - Changes the page's title
 
-stream(source, parameters) - Streams any kind of video supported by the browser with paramaters. 
-The paramaters field is required but canupdate() handle spaces
+stream(source, parameters) or str(source, parameters) - Streams any kind of video supported by the browser with paramaters. 
+The paramaters field is required but can handle spaces
 
 ## Commands rarely used
 
-line() - Creates a straight line
+line() ord l() - Creates a straight line
 
-embed(source, width, height) - Embeds another page inside the page
+embed(source, width, height) or  - Embeds another page inside the page
 
 ## Development commands
 
-update() - Updates the display (only needed if you are making your own command)
+update() or updt() - Updates the old_content variable (only needed if you are making your own command)
