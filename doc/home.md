@@ -21,9 +21,15 @@ set_title(new_title) or set_ttl() - Changes the page's title
 stream(source, parameters) or str(source, parameters) - Streams any kind of video supported by the browser with paramaters. 
 The paramaters field is required but can handle spaces
 
+getUsers(value) or gUsr(value) - Get information from the user, currently "browser" is the only one currently available.
+
+redirect(url) or redir(url) - Redirect user to the specified URL.
+
 ## Commands rarely used
 
-line() ord l() - Creates a straight line
+line() or l() - Creates a straight line
+
+cacheReset() or cheRes() - Clear the cached_content variable
 
 embed(source, width, height) or emb(source, width, height) - Embeds another page inside the page
 

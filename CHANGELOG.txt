@@ -1,4 +1,8 @@
 ====Alpha====
+==a1.2== (Major)
+- Added the cache reset, redirect and get information features.
+- Bug fixes
+- Smaller minified version
 ==a1.1== (Minor)
 - Moved the documentation to it's own file
 - Fixed bug related to the embed feature
